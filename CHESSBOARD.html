@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chessboard</title>
+    `<style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .chessboard {
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+
+        .chessboard td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .dark {
+            background-color: #000;
+            color: white;
+        }
+
+        .light {
+            background-color: #fff;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="chessboard">
+        <tbody>
+            <tr>
+                <td class="dark">♜</td>
+                <td class="light">♞</td>
+                <td class="dark">♝</td>
+                <td class="light">♛</td>
+                <td class="dark">♚</td>
+                <td class="light">♝</td>
+                <td class="dark">♞</td>
+                <td class="light">♜</td>
+            </tr>
+            <tr>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+                <td class="light">♟</td>
+                <td class="dark">♟</td>
+            </tr>
+            <tr>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+            </tr>
+            <tr>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+                <td class="light"></td>
+                <td class="dark"></td>
+            </tr>
+            <tr>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+                <td class="dark">♙</td>
+                <td class="light">♙</td>
+            </tr>
+            <tr>
+                <td class="light">♖</td>
+                <td class="dark">♘</td>
+                <td class="light">♗</td>
+                <td class="dark">♕</td>
+                <td class="light">♔</td>
+                <td class="dark">♗</td>
+                <td class="light">♘</td>
+                <td class="dark">♖</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
